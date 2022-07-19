@@ -53,14 +53,15 @@ nav a {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav li.active a nav a:hover {
+nav li.active a,
+nav a:hover {
   color: var(--branding-color);
 }
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 200px 100px;
+  padding: 80px 100px;
 }
 
 .hero p {
@@ -104,7 +105,7 @@ nav li.active a nav a:hover {
   padding: 120px 60px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -170,9 +171,6 @@ footer .social-links a:hover {
     line-height: 2px;
   }
 
-  .hero {
-    padding: 80px 20px;
-  }
   .hero h1 {
     font-size: 60px;
   }
