@@ -17,6 +17,10 @@ h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
 }
+
+h4 {
+  font-size: 48px;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -126,6 +130,39 @@ nav li.active a nav a:hover {
 }
 .content {
   margin: 28px;
+}
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  background-color: var(--secondary-color);
+  color: var(--branding-color);
+  font-size: 14px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 @media (max-width: 900px) {
   h1 {
